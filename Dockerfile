@@ -22,7 +22,7 @@ RUN pip install flask
 
 RUN pip install httplib2
 
-RUN pip install urllib
+RUN pip install numpy --upgrade
 
 RUN ln -s /scripts/retrain.sh /bin/retrain
 
